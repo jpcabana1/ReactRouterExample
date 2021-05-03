@@ -1,15 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div>
+    <div className="navbar">
       {"|"}
-      <Link to="/">Home </Link>
+      <NavLink style={{ marginLeft: "5rem" }} to="/">
+        Home{" "}
+      </NavLink>
       {"|"}
-      <Link to="/shop">Shop Now </Link>
+      <NavLink style={{ marginLeft: "5rem" }} to="/shop">
+        Shop Now{" "}
+      </NavLink>
       {"|"}
-      <Link to="/about">About Us </Link>
+      <NavLink style={{ marginLeft: "5rem" }} to="/about">
+        About Us{" "}
+      </NavLink>
       {"|"}
     </div>
   );
