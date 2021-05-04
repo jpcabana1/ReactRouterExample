@@ -1,0 +1,24 @@
+.home {
+  margin-top: 3.5rem;
+  font-size: 2rem;
+  color: aqua;
+  background-color: rgb(56, 59, 59);
+}
+
+.about {
+  margin-top: 3.5rem;
+  font-size: 2rem;
+  background-color: rgb(248, 120, 0);
+}
+
+.shop {
+  margin-top: 3.5rem;
+  font-size: 2rem;
+  background-color: rgb(0, 255, 234);
+}
+
+.shop {
+  margin-top: 3.5rem;
+  font-size: 2rem;
+  background-color: rgb(245, 16, 16);
+}

@@ -1,8 +1,8 @@
 import React from "react";
-
+import "./Styles.css";
 function Shop() {
   return (
-    <div>
+    <div className="shop">
       <h1>Shop</h1>
     </div>
   );

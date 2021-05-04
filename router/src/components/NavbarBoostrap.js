@@ -11,13 +11,7 @@ function NavbarBoostrap() {
   return (
     <div>
       {/* <Container> */}
-      <Navbar
-        collapseOnSelect
-        sticky="top"
-        expand="lg"
-        bg="dark"
-        variant="dark"
-      >
+      <Navbar fixed="top" bg="dark" variant="dark">
         <Navbar.Brand href="/">Navbar</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
